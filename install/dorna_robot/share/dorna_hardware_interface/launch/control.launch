@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- Khởi tạo robot từ URDF -->
+    <param name="robot_description" command="$(find xacro)/xacro '$(find dorna_robot)/urdf/dorna_robot.urdf'" />
+
+    <!-- Các tham số vị trí khởi tạo -->
+    <arg name="x" default="0" />
+    <arg name="y" default="0" />
+    <arg name="z" default="0" />
+
+    <!-- Khởi động Gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="debug" value="false" />
+        <arg name="gui" value="true" />
+        <arg name="paused" value="true" />
+        <arg name="use_sim_time" value="true" />
+    </include>
+
+    <!-- Spawn robot trong Gazebo -->
+    <node name="spawn_the_robot" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+          args="-urdf -x $(arg x) -y $(arg y) -z $(arg z) -model dorna_robot -param robot_description" />
+
+    <!-- Nạp file YAML cấu hình -->
+    <rosparam file="$(find dorna_robot)/config/config1.yaml" command="load" ns="/dorna_robot" />
+
+    <!-- Khởi động controller_spawner -->
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+      ns="/dorna_robot"
+      args="joint_state_controller 
+            joint0_position_controller 
+            joint1_position_controller 
+            joint2_position_controller 
+            joint_ee_position_controller 
+            --timeout 60" />
+
+
+    <!-- Robot State Publisher -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+        <remap from="/joint_states" to="/dorna_robot/joint_states" />
+    </node>
+
+    <!-- Khởi động GUI để điều chỉnh joints (tuỳ chọn) -->
+    <!--
+    <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
+    -->
+</launch>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="dorna_link" params="link_name mesh mass com inertia color">
+    <link name="${link_name}">
+      <inertial>
+        <origin xyz="${com}" rpy="0 0 0"/>
+        <mass value="${mass}"/>
+        <inertia ${inertia}/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://dorna_robot/description/meshes/${mesh}"/>
+        </geometry>
+        <material name="default_material"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://dorna_robot/description/meshes/${mesh}"/>
+        </geometry>
+      </collision>
+    </link>
+  </xacro:macro>
+
+  <xacro:macro name="dorna_joint" params="joint_name type parent child origin axis limit">
+    <joint name="${joint_name}" type="${type}">
+      <parent link="${parent}"/>
+      <child link="${child}"/>
+      <origin xyz="${origin.xyz}" rpy="${origin.rpy}"/>
+      <axis xyz="${axis}"/>
+      <limit lower="${limit.lower}" upper="${limit.upper}" effort="${limit.effort}" velocity="${limit.velocity}"/>
+    </joint>
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,51 @@
+[0.098s] Invoking command in '/home/sang/ros2_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/ros2_control_demo_description -- -j2 -l2
+[0.597s] Invoked command in '/home/sang/ros2_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/ros2_control_demo_description -- -j2 -l2
+[0.661s] Invoking command in '/home/sang/ros2_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/ros2_control_demo_description
+[0.701s] -- Install configuration: ""
+[0.704s] -- Execute custom install script
+[0.713s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[0.716s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[0.720s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[0.725s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[0.727s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[0.731s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[0.733s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[0.737s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+[0.740s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+[0.742s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+[0.743s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+[0.747s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf/threedofbot_description.urdf.xacro
+[0.752s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[0.755s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[0.757s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[0.757s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[0.759s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[0.761s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[0.763s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[0.766s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[0.769s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[0.769s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[0.774s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[0.774s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[0.776s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[0.778s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[0.786s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[0.790s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[0.794s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[0.796s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[0.801s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[0.803s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[0.807s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[0.811s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[0.814s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[0.816s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[0.818s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[0.822s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[0.822s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[0.824s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[0.825s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[0.878s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[0.883s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[0.884s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[0.886s] -- Up-to-date symlink: /home/sang/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[0.895s] Invoked command in '/home/sang/ros2_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/ros2_control_demo_description

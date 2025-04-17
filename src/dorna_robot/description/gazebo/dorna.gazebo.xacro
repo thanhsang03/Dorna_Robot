@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+Adapted for single Dorna robot - Gazebo ros2_control plugin and visual properties
+-->
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="dorna_gazebo" params="">
+
+    <!-- ros2_control plugin -->
+    <gazebo>
+      <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+        <parameters>$(find dorna_robot)/config/controllers.yaml</parameters>
+      </plugin>
+    </gazebo>
+
+    <!-- Base link -->
+    <gazebo reference="base_link">
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Orange</name>
+        </script>
+      </material>
+    </gazebo>
+
+    <!-- Link 1 -->
+    <gazebo reference="link1">
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </gazebo>
+
+    <!-- Link 2 -->
+    <gazebo reference="link2">
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Yellow</name>
+        </script>
+      </material>
+    </gazebo>
+
+    <!-- Link 3 -->
+    <gazebo reference="link3">
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </gazebo>
+
+    <!-- Link 4 -->
+    <gazebo reference="link4">
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/Blue</name>
+        </script>
+      </material>
+    </gazebo>
+
+  </xacro:macro>
+
+</robot>

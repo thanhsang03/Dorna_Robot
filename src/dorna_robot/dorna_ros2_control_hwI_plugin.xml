@@ -1,0 +1,12 @@
+<!-- build cpp hardware_interface to plugin using pluginlib -->
+
+<library path="dorna_ros2_control_hwI">
+  <class name="dorna_ros2_control_hwI/DornaPositionControl"
+         type="dorna_ros2_control_hwI::DornaPositionControl"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The ros2_control using a system hardware interface-type --system type
+      -component is a robot/robot control box
+    </description>
+  </class>
+</library>

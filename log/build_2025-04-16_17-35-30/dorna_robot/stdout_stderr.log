@@ -1,0 +1,60 @@
+-- Found ros2_control_cmake: 0.1.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (2.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/sang/ros2_ws/build/dorna_robot
+[100%] Built target dorna_hardware_interface
+-- Install configuration: ""
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/dorna_ros2_control_hwI_plugin.xml
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI/ros2_control_hwI
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI/ros2_control_hwI/dorna_hardware_interface.hpp
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/view_robot.launch.py
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/ros2_control
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/ros2_control/dorna.ros2_control.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/urdf
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/urdf/dorna.urdf.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/urdf/dorna_macro.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/urdf/dorna.materials.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/gazebo
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/main.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/control.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/display.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/gazebo.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/config
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/config/controllers.yaml
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/lib/libdorna_hardware_interface.so
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.sh
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.dsv
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/package_run_dependencies/dorna_robot
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/parent_prefix_path/dorna_robot
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.sh
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.dsv
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.bash
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.sh
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.zsh
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.dsv
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.dsv
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/packages/dorna_robot
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/dorna_hardware_interface__pluginlib__plugin/dorna_robot
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport.cmake
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport-noconfig.cmake
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig.cmake
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig-version.cmake
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.xml

@@ -1,0 +1,44 @@
+[100%] Built target dorna_hardware_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot//dorna_ros2_control_hwI_plugin.xml
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI/ros2_control_hwI/dorna_hardware_interface.hpp
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/view_robot.launch.py
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/ros2_control/dorna.ros2_control.xacro
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/urdf/dorna.materials.xacro
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/urdf/dorna.urdf.xacro
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/urdf/dorna_macro.xacro
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/rviz/dorna_world.rviz
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/base_link.STL
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/link1.STL
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/link2.STL
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/link3.STL
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/link4.STL
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/control.launch
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/display.launch
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/gazebo.launch
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/launch/main.launch
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/config/controllers.yaml
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.sh
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.dsv
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/package_run_dependencies/dorna_robot
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/parent_prefix_path/dorna_robot
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.sh
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.dsv
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.bash
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.sh
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.zsh
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.dsv
+-- Symlinking: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.dsv
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/packages/dorna_robot
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/dorna_hardware_interface__pluginlib__plugin/dorna_robot
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig.cmake
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig-version.cmake
+-- Up-to-date symlink: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.xml
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/lib/libdorna_hardware_interface.so
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport.cmake
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport-noconfig.cmake

@@ -1,0 +1,70 @@
+[0.044s] Invoking command in '/home/sang/ros2_ws/build/dorna_robot': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/dorna_robot -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/dorna_robot
+[0.108s] -- Found ros2_control_cmake: 0.1.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.108s] -- Compiler warnings enabled for GNU
+[0.109s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.111s] -- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[0.870s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.900s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.989s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.194s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.200s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.113s] -- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[2.262s] -- Configuring done (2.2s)
+[2.363s] -- Generating done (0.1s)
+[2.372s] -- Build files have been written to: /home/sang/ros2_ws/build/dorna_robot
+[2.401s] Invoked command in '/home/sang/ros2_ws/build/dorna_robot' returned '0': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/dorna_robot -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/dorna_robot
+[2.402s] Invoking command in '/home/sang/ros2_ws/build/dorna_robot': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/dorna_robot -- -j2 -l2
+[2.605s] [ 50%] [32mBuilding CXX object CMakeFiles/dorna_hardware_interface.dir/hardware/dorna_hardware_interface.cpp.o[0m
+[8.397s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:17:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[8.400s]    17 | hardware_interface::[01;31m[KCallbackReturn[m[K DornaPositionControl::on_init(
+[8.400s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.401s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:73:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[8.401s]    73 | hardware_interface::[01;31m[KCallbackReturn[m[K RRBotSystemPositionOnlyHardware::on_configure(
+[8.405s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.405s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:100:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[8.406s]   100 | hardware_interface::[01;31m[KCallbackReturn[m[K RRBotSystemPositionOnlyHardware::on_activate(
+[8.406s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.411s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:124:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[8.412s]   124 | hardware_interface::[01;31m[KCallbackReturn[m[K RRBotSystemPositionOnlyHardware::on_deactivate(
+[8.412s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.412s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:142:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[8.413s]   142 | hardware_interface::[01;31m[Kreturn_type[m[K RRBotSystemPositionOnlyHardware::read(
+[8.413s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[8.419s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:163:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[8.420s]   163 | hardware_interface::[01;31m[Kreturn_type[m[K RRBotSystemPositionOnlyHardware::write(
+[8.420s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[8.432s] In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[8.432s]                  from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[8.432s]                  from [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:184[m[K:
+[8.433s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:187:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdorna_hardware_interface[m[K’ does not name a type; did you mean ‘[01m[Kdorna_hardware_interface_EXPORTS[m[K’?
+[8.437s]   187 |   [01;31m[Kdorna_hardware_interface[m[K::DornaPositionControl, hardware_interface::SystemInterface)
+[8.438s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.438s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:187:71:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemInterface[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[8.438s]   187 | rdware_interface::DornaPositionControl, hardware_interface::[01;31m[KSystemInterface[m[K)
+[8.438s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[8.439s] 
+[8.443s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[8.443s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[8.444s]   186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[8.444s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.450s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope; did you mean ‘[01m[K__bases[m[K’?
+[8.452s]   186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[8.452s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.453s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [47], const char [36])[m[K’
+[8.455s]   186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[8.456s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.459s] In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[8.459s] [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+[8.459s]   241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[8.460s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[8.460s] [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.463s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.463s]   186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[8.463s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.464s] [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[9.473s] gmake[2]: *** [CMakeFiles/dorna_hardware_interface.dir/build.make:76: CMakeFiles/dorna_hardware_interface.dir/hardware/dorna_hardware_interface.cpp.o] Error 1
+[9.473s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dorna_hardware_interface.dir/all] Error 2
+[9.475s] gmake: *** [Makefile:146: all] Error 2
+[9.482s] Invoked command in '/home/sang/ros2_ws/build/dorna_robot' returned '2': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/dorna_robot -- -j2 -l2

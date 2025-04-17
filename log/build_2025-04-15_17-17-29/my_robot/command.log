@@ -1,0 +1,2 @@
+Invoking command in '/home/sang/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/my_robot -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/my_robot
+Invoked command in '/home/sang/ros2_ws/build/my_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/my_robot -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/my_robot

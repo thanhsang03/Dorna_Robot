@@ -1,0 +1,50 @@
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:17:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+   17 | hardware_interface::[01;31m[KCallbackReturn[m[K DornaPositionControl::on_init(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:73:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+   73 | hardware_interface::[01;31m[KCallbackReturn[m[K RRBotSystemPositionOnlyHardware::on_configure(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:100:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  100 | hardware_interface::[01;31m[KCallbackReturn[m[K RRBotSystemPositionOnlyHardware::on_activate(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:124:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  124 | hardware_interface::[01;31m[KCallbackReturn[m[K RRBotSystemPositionOnlyHardware::on_deactivate(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:142:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  142 | hardware_interface::[01;31m[Kreturn_type[m[K RRBotSystemPositionOnlyHardware::read(
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:163:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  163 | hardware_interface::[01;31m[Kreturn_type[m[K RRBotSystemPositionOnlyHardware::write(
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:184[m[K:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:187:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdorna_hardware_interface[m[K’ does not name a type; did you mean ‘[01m[Kdorna_hardware_interface_EXPORTS[m[K’?
+  187 |   [01;31m[Kdorna_hardware_interface[m[K::DornaPositionControl, hardware_interface::SystemInterface)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:187:71:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemInterface[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  187 | rdware_interface::DornaPositionControl, hardware_interface::[01;31m[KSystemInterface[m[K)
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope; did you mean ‘[01m[K__bases[m[K’?
+  186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [47], const char [36])[m[K’
+  186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+  241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      | [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+gmake[2]: *** [CMakeFiles/dorna_hardware_interface.dir/build.make:76: CMakeFiles/dorna_hardware_interface.dir/hardware/dorna_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dorna_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

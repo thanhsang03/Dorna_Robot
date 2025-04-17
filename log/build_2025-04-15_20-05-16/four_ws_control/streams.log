@@ -1,0 +1,52 @@
+[0.052s] Invoking command in '/home/sang/ros2_ws/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/four_ws_control
+[0.308s] -- The C compiler identification is GNU 13.3.0
+[0.634s] -- The CXX compiler identification is GNU 13.3.0
+[0.722s] -- Detecting C compiler ABI info
+[1.254s] -- Detecting C compiler ABI info - done
+[1.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.289s] -- Detecting C compile features
+[1.289s] -- Detecting C compile features - done
+[1.347s] -- Detecting CXX compiler ABI info
+[1.928s] -- Detecting CXX compiler ABI info - done
+[1.952s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.953s] -- Detecting CXX compile features
+[1.957s] -- Detecting CXX compile features - done
+[1.992s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.749s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.409s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.957s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.969s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.971s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.978s] -- Added test 'lint_cmake' to check CMake code style
+[3.983s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.991s] -- Added test 'xmllint' to check XML markup files
+[4.006s] -- Configuring done (3.9s)
+[4.024s] -- Generating done (0.0s)
+[4.029s] -- Build files have been written to: /home/sang/ros2_ws/build/four_ws_control
+[4.056s] Invoked command in '/home/sang/ros2_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/four_ws_control
+[4.060s] Invoking command in '/home/sang/ros2_ws/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/four_ws_control -- -j2 -l2
+[4.357s] Invoked command in '/home/sang/ros2_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/four_ws_control -- -j2 -l2
+[4.358s] Invoking command in '/home/sang/ros2_ws/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/four_ws_control
+[4.413s] -- Install configuration: ""
+[4.413s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control//scripts
+[4.419s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control//scripts/robot_control.py
+[4.420s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control//launch
+[4.423s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control//launch/four_ws_control.launch.py
+[4.423s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/lib/four_ws_control/robot_control.py
+[4.424s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/lib/four_ws_control/four_ws_control.launch.py
+[4.424s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/ament_index/resource_index/package_run_dependencies/four_ws_control
+[4.429s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/ament_index/resource_index/parent_prefix_path/four_ws_control
+[4.430s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.sh
+[4.430s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.dsv
+[4.431s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/environment/path.sh
+[4.432s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/environment/path.dsv
+[4.434s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/local_setup.bash
+[4.435s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/local_setup.sh
+[4.437s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/local_setup.zsh
+[4.442s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/local_setup.dsv
+[4.442s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/package.dsv
+[4.446s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/ament_index/resource_index/packages/four_ws_control
+[4.451s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig.cmake
+[4.451s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig-version.cmake
+[4.451s] -- Installing: /home/sang/ros2_ws/install/four_ws_control/share/four_ws_control/package.xml
+[4.457s] Invoked command in '/home/sang/ros2_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/four_ws_control

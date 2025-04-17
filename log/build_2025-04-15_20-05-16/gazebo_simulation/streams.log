@@ -1,0 +1,34 @@
+[0.044s] Invoking command in '/home/sang/ros2_ws/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/gazebo_simulation
+[0.274s] -- The C compiler identification is GNU 13.3.0
+[0.501s] -- The CXX compiler identification is GNU 13.3.0
+[0.589s] -- Detecting C compiler ABI info
+[1.045s] -- Detecting C compiler ABI info - done
+[1.065s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.068s] -- Detecting C compile features
+[1.071s] -- Detecting C compile features - done
+[1.139s] -- Detecting CXX compiler ABI info
+[1.614s] -- Detecting CXX compiler ABI info - done
+[1.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.643s] -- Detecting CXX compile features
+[1.644s] -- Detecting CXX compile features - done
+[1.679s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.195s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.647s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[2.648s]   By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+[2.648s]   asked CMake to find a package configuration file provided by "gazebo", but
+[2.649s]   CMake did not find one.
+[2.649s] 
+[2.650s]   Could not find a package configuration file provided by "gazebo" with any
+[2.650s]   of the following names:
+[2.650s] 
+[2.651s]     gazeboConfig.cmake
+[2.651s]     gazebo-config.cmake
+[2.651s] 
+[2.652s]   Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+[2.652s]   "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+[2.652s]   provides a separate development package or SDK, be sure it has been
+[2.653s]   installed.
+[2.653s] 
+[2.653s] [0m
+[2.653s] -- Configuring incomplete, errors occurred!
+[2.667s] Invoked command in '/home/sang/ros2_ws/build/gazebo_simulation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/gazebo_simulation

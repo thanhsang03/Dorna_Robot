@@ -1,0 +1,64 @@
+[0.050s] Invoking command in '/home/sang/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/my_first_pkg -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/my_first_pkg
+[0.731s] -- The C compiler identification is GNU 13.3.0
+[1.208s] -- The CXX compiler identification is GNU 13.3.0
+[1.314s] -- Detecting C compiler ABI info
+[1.804s] -- Detecting C compiler ABI info - done
+[1.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.823s] -- Detecting C compile features
+[1.825s] -- Detecting C compile features - done
+[1.875s] -- Detecting CXX compiler ABI info
+[2.372s] -- Detecting CXX compiler ABI info - done
+[2.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.404s] -- Detecting CXX compile features
+[2.411s] -- Detecting CXX compile features - done
+[2.463s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.060s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.674s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.208s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.244s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sang/ros2_ws/src/my_first_pkg/include>
+[4.245s] -- Configured cppcheck exclude dirs and/or files: 
+[4.284s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.285s] -- Configured cpplint exclude dirs and/or files: 
+[4.290s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.290s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.301s] -- Added test 'lint_cmake' to check CMake code style
+[4.307s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.335s] -- Added test 'uncrustify' to check C / C++ code style
+[4.335s] -- Configured uncrustify additional arguments: 
+[4.342s] -- Added test 'xmllint' to check XML markup files
+[4.352s] -- Configuring done (4.2s)
+[4.374s] -- Generating done (0.0s)
+[4.382s] -- Build files have been written to: /home/sang/ros2_ws/build/my_first_pkg
+[4.404s] Invoked command in '/home/sang/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/my_first_pkg -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/my_first_pkg
+[4.408s] Invoking command in '/home/sang/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/my_first_pkg -- -j2 -l2
+[4.717s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[4.915s] [100%] [32m[1mLinking CXX executable my_node[0m
+[5.168s] [100%] Built target my_node
+[5.222s] Invoked command in '/home/sang/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/my_first_pkg -- -j2 -l2
+[5.225s] Invoking command in '/home/sang/ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/my_first_pkg
+[5.276s] -- Install configuration: ""
+[5.277s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/lib/my_first_pkg/my_node
+[5.279s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg//launch
+[5.280s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg//launch/gazebo.launch.py
+[5.284s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg//launch/display.launch.py
+[5.284s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg//urdf
+[5.285s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg//urdf/my_robot.urdf
+[5.285s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg//rviz
+[5.285s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg//rviz/config.rviz
+[5.286s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[5.286s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[5.287s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[5.291s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[5.293s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[5.295s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[5.298s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[5.300s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[5.301s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[5.301s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[5.301s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[5.304s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[5.304s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[5.305s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[5.305s] -- Installing: /home/sang/ros2_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[5.314s] Invoked command in '/home/sang/ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/my_first_pkg

@@ -1,0 +1,43 @@
+[0.052s] Invoking command in '/home/sang/ros2_ws/build/simple_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/simple_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/simple_robot
+[0.718s] -- The C compiler identification is GNU 13.3.0
+[1.121s] -- The CXX compiler identification is GNU 13.3.0
+[1.218s] -- Detecting C compiler ABI info
+[1.807s] -- Detecting C compiler ABI info - done
+[1.859s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.860s] -- Detecting C compile features
+[1.862s] -- Detecting C compile features - done
+[1.906s] -- Detecting CXX compiler ABI info
+[2.922s] -- Detecting CXX compiler ABI info - done
+[2.992s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.994s] -- Detecting CXX compile features
+[2.995s] -- Detecting CXX compile features - done
+[3.171s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.224s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.113s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[5.145s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[5.641s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.775s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.391s] -- Found ros2_control: 4.27.0 (/opt/ros/jazzy/share/ros2_control/cmake)
+[6.434s] -- Found ros2_controllers: 4.22.0 (/opt/ros/jazzy/share/ros2_controllers/cmake)
+[6.502s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[6.502s]   By not providing "Findgz_ros.cmake" in CMAKE_MODULE_PATH this project has
+[6.503s]   asked CMake to find a package configuration file provided by "gz_ros", but
+[6.503s]   CMake did not find one.
+[6.503s] 
+[6.507s]   Could not find a package configuration file provided by "gz_ros" with any
+[6.508s]   of the following names:
+[6.508s] 
+[6.511s]     gz_rosConfig.cmake
+[6.511s]     gz_ros-config.cmake
+[6.512s] 
+[6.512s]   Add the installation prefix of "gz_ros" to CMAKE_PREFIX_PATH or set
+[6.514s]   "gz_ros_DIR" to a directory containing one of the above files.  If "gz_ros"
+[6.514s]   provides a separate development package or SDK, be sure it has been
+[6.516s]   installed.
+[6.516s] 
+[6.516s] [0m
+[6.517s] -- Configuring incomplete, errors occurred!
+[6.537s] Invoked command in '/home/sang/ros2_ws/build/simple_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/simple_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/simple_robot

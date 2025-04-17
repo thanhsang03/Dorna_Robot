@@ -1,0 +1,73 @@
+[0.044s] Invoking command in '/home/sang/ros2_ws/build/ros2_control_demo_example_5': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/ros2_control_demos/example_5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/ros2_control_demo_example_5
+[0.281s] -- The CXX compiler identification is GNU 13.3.0
+[0.358s] -- Detecting CXX compiler ABI info
+[0.834s] -- Detecting CXX compiler ABI info - done
+[0.861s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.864s] -- Detecting CXX compile features
+[0.866s] -- Detecting CXX compile features - done
+[0.887s] -- Found ros2_control_cmake: 0.1.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.888s] -- Compiler warnings enabled for GNU
+[0.892s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.909s] -- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.546s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.305s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.388s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.882s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.907s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.329s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.385s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.451s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.388s] -- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[8.602s] -- Configuring done (8.5s)
+[8.760s] -- Generating done (0.1s)
+[8.773s] -- Build files have been written to: /home/sang/ros2_ws/build/ros2_control_demo_example_5
+[8.801s] Invoked command in '/home/sang/ros2_ws/build/ros2_control_demo_example_5' returned '0': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/ros2_control_demos/example_5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/ros2_control_demo_example_5
+[8.802s] Invoking command in '/home/sang/ros2_ws/build/ros2_control_demo_example_5': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/ros2_control_demo_example_5 -- -j2 -l2
+[9.069s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_5.dir/hardware/external_rrbot_force_torque_sensor.cpp.o[0m
+[9.112s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_5.dir/hardware/rrbot.cpp.o[0m
+[30.580s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_5.so[0m
+[31.708s] [100%] Built target ros2_control_demo_example_5
+[31.764s] Invoked command in '/home/sang/ros2_ws/build/ros2_control_demo_example_5' returned '0': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/ros2_control_demo_example_5 -- -j2 -l2
+[31.766s] Invoking command in '/home/sang/ros2_ws/build/ros2_control_demo_example_5': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/ros2_control_demo_example_5
+[31.809s] -- Install configuration: ""
+[31.812s] -- Execute custom install script
+[31.812s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5//ros2_control_demo_example_5.xml
+[31.866s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/include/ros2_control_demo_example_5/ros2_control_demo_example_5/external_rrbot_force_torque_sensor.hpp
+[31.899s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/include/ros2_control_demo_example_5/ros2_control_demo_example_5/rrbot.hpp
+[31.943s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/launch/view_robot.launch.py
+[31.985s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/ros2_control/external_rrbot_force_torque_sensor.ros2_control.xacro
+[32.024s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/ros2_control/rrbot_system_position_only.ros2_control.xacro
+[32.070s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/urdf/rrbot_system_with_external_sensor.urdf.xacro
+[32.110s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/rviz/rrbot.rviz
+[32.154s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/launch/rrbot_system_with_external_sensor.launch.py
+[32.193s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/launch/test_forward_position_controller.launch.py
+[32.239s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/config/rrbot_forward_position_publisher.yaml
+[32.284s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/config/rrbot_with_external_sensor_controllers.yaml
+[32.321s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/environment/library_path.sh
+[32.370s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/environment/library_path.dsv
+[32.409s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_5
+[32.462s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_5
+[32.494s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/environment/ament_prefix_path.sh
+[32.530s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/environment/ament_prefix_path.dsv
+[32.580s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/environment/path.sh
+[32.621s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/environment/path.dsv
+[32.668s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/local_setup.bash
+[32.705s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/local_setup.sh
+[32.753s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/local_setup.zsh
+[32.802s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/local_setup.dsv
+[32.840s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.dsv
+[32.881s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ament_index/resource_index/packages/ros2_control_demo_example_5
+[32.920s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_5
+[32.968s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/cmake/ament_cmake_export_targets-extras.cmake
+[33.012s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.061s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/cmake/ros2_control_demo_example_5Config.cmake
+[33.103s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/cmake/ros2_control_demo_example_5Config-version.cmake
+[33.133s] -- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.xml
+[33.178s] -- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_5/lib/libros2_control_demo_example_5.so
+[33.185s] -- Set non-toolchain portion of runtime path of "/home/sang/ros2_ws/install/ros2_control_demo_example_5/lib/libros2_control_demo_example_5.so" to ""
+[33.186s] -- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/cmake/export_ros2_control_demo_example_5Export.cmake
+[33.188s] -- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/cmake/export_ros2_control_demo_example_5Export-noconfig.cmake
+[33.194s] Invoked command in '/home/sang/ros2_ws/build/ros2_control_demo_example_5' returned '0': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/ros2_control_demo_example_5

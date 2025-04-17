@@ -1,0 +1,384 @@
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDornaPositionControl[m[K’ has not been declared
+   17 | hardware_interface::CallbackReturn [01;31m[KDornaPositionControl[m[K::on_init(
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn dorna_hardware_interface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:21:49:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::SystemInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ without object
+   21 |     [01;31m[Khardware_interface::SystemInterface::on_init(info)[m[K !=
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_start_sec_[m[K’ was not declared in this scope
+   28 |   [01;31m[Khw_start_sec_[m[K = stod(info_.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:28:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo[m[K’?
+   28 |   hw_start_sec_ = stod([01;31m[Kinfo_[m[K.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                        [01;31m[K^~~~~[m[K
+      |                        [32m[Kinfo[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:28:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstod[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::__cxx11::stod[m[K’?
+   28 |   hw_start_sec_ = [01;31m[Kstod[m[K(info_.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[Kstd::__cxx11::stod[m[K
+In file included from [01m[K/usr/include/c++/13/string:54[m[K,
+                 from [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/include/ros2_control_hwI/dorna_hardware_interface.hpp:5[m[K,
+                 from [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/basic_string.h:4302:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::stod[m[K’ declared here
+ 4302 |   [01;36m[Kstod[m[K(const wstring& __str, size_t* __idx = 0)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_stop_sec_[m[K’ was not declared in this scope
+   29 |   [01;31m[Khw_stop_sec_[m[K = stod(info_.hardware_parameters["example_param_hw_stop_duration_sec"]);
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_slowdown_[m[K’ was not declared in this scope
+   30 |   [01;31m[Khw_slowdown_[m[K = stod(info_.hardware_parameters["example_param_hw_slowdown"]);
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics_utils.hpp:45[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics_macros.hpp:36[m[K,
+                 from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:29[m[K,
+                 from [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/include/ros2_control_hwI/dorna_hardware_interface.hpp:8[m[K:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   39 |         [01;31m[Kget_logger[m[K(), "Joint '%s' has %zu command interfaces found. 1 expected.",
+      |         [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:26[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:38:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:38:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:38:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   47 |         [01;31m[Kget_logger[m[K(), "Joint '%s' have %s command interfaces found. '%s' expected.",
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:46:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:46:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:46:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   56 |         [01;31m[Kget_logger[m[K(), "Joint '%s' has %zu state interface. 1 expected.", joint.name.c_str(),
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:55:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:55:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:55:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   64 |         [01;31m[Kget_logger[m[K(), "Joint '%s' have %s state interface. '%s' expected.", joint.name.c_str(),
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:63:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:63:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:63:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:73:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDornaPositionControl[m[K’ has not been declared
+   73 | hardware_interface::CallbackReturn [01;31m[KDornaPositionControl[m[K::on_configure(
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn dorna_hardware_interface::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:77:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   77 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Configuring ...please wait...");
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:77:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Configuring ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:77:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Configuring ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:77:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   77 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Configuring ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:79:23:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_start_sec_[m[K’ was not declared in this scope
+   79 |   for (int i = 0; i < [01;31m[Khw_start_sec_[m[K; i++)
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:82:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   82 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "%.1f seconds left...", hw_start_sec_ - i);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:82:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_start_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:82:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_start_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:82:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_start_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:87:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_interfaces_[m[K’ was not declared in this scope
+   87 |   for (const auto & [name, descr] : [01;31m[Kjoint_state_interfaces_[m[K)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+   89 |     [01;31m[Kset_state[m[K(name, 0.0);
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Ksetstate[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:91:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_interfaces_[m[K’ was not declared in this scope
+   91 |   for (const auto & [name, descr] : [01;31m[Kjoint_command_interfaces_[m[K)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_command[m[K’ was not declared in this scope
+   93 |     [01;31m[Kset_command[m[K(name, 0.0);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:95:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   95 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Successfully configured!");
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:95:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully configured!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:95:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully configured!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:95:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully configured!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:100:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDornaPositionControl[m[K’ has not been declared
+  100 | hardware_interface::CallbackReturn [01;31m[KDornaPositionControl[m[K::on_activate(
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn dorna_hardware_interface::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:104:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  104 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Activating ...please wait...");
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:104:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  104 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Activating ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:104:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  104 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Activating ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:104:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  104 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Activating ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:106:23:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_start_sec_[m[K’ was not declared in this scope
+  106 |   for (int i = 0; i < [01;31m[Khw_start_sec_[m[K; i++)
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:109:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  109 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "%.1f seconds left...", hw_start_sec_ - i);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:109:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  109 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_start_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:109:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  109 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_start_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:109:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  109 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_start_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:114:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_interfaces_[m[K’ was not declared in this scope
+  114 |   for (const auto & [name, descr] : [01;31m[Kjoint_state_interfaces_[m[K)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:116:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  116 |     set_command(name, [01;31m[Kget_state[m[K(name));
+      |                       [01;31m[K^~~~~~~~~[m[K
+      |                       [32m[Ksetstate[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_command[m[K’ was not declared in this scope
+  116 |     [01;31m[Kset_command[m[K(name, get_state(name));
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:119:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  119 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Successfully activated!");
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:119:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  119 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully activated!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:119:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  119 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully activated!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:119:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  119 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully activated!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:124:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDornaPositionControl[m[K’ has not been declared
+  124 | hardware_interface::CallbackReturn [01;31m[KDornaPositionControl[m[K::on_deactivate(
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn dorna_hardware_interface::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:128:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  128 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Deactivating ...please wait...");
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:128:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Deactivating ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:128:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Deactivating ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:128:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Deactivating ...please wait...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:130:23:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_stop_sec_[m[K’ was not declared in this scope
+  130 |   for (int i = 0; i < [01;31m[Khw_stop_sec_[m[K; i++)
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:133:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  133 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "%.1f seconds left...", hw_stop_sec_ - i);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:133:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  133 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_stop_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:133:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  133 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_stop_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:133:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  133 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "%.1f seconds left...", hw_stop_sec_ - i);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:136:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  136 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Successfully deactivated!");
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:136:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  136 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully deactivated!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:136:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  136 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully deactivated!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:136:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  136 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Successfully deactivated!");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:142:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDornaPositionControl[m[K’ has not been declared
+  142 | hardware_interface::return_type [01;31m[KDornaPositionControl[m[K::read(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::return_type dorna_hardware_interface::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:149:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_interfaces_[m[K’ was not declared in this scope
+  149 |   for (const auto & [name, descr] : [01;31m[Kjoint_state_interfaces_[m[K)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:152:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  152 |     auto new_value = [01;31m[Kget_state[m[K(name) + (get_command(name) - get_state(name)) / hw_slowdown_;
+      |                      [01;31m[K^~~~~~~~~[m[K
+      |                      [32m[Ksetstate[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:152:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_command[m[K’ was not declared in this scope
+  152 |     auto new_value = get_state(name) + ([01;31m[Kget_command[m[K(name) - get_state(name)) / hw_slowdown_;
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:152:80:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_slowdown_[m[K’ was not declared in this scope
+  152 | = get_state(name) + (get_command(name) - get_state(name)) / [01;31m[Khw_slowdown_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:153:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  153 |     [01;31m[Kset_state[m[K(name, new_value);
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Ksetstate[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:157:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  157 |   RCLCPP_INFO_THROTTLE([01;31m[Kget_logger[m[K(), *get_clock(), 500, "%s", ss.str().c_str());
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:157:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:157:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:157:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  157 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:157:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_clock[m[K’ was not declared in this scope
+  157 |   RCLCPP_INFO_THROTTLE(get_logger(), *[01;31m[Kget_clock[m[K(), 500, "%s", ss.str().c_str());
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In lambda function:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:157:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  157 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:163:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDornaPositionControl[m[K’ has not been declared
+  163 | hardware_interface::return_type [01;31m[KDornaPositionControl[m[K::write(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::return_type dorna_hardware_interface::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:170:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_interfaces_[m[K’ was not declared in this scope
+  170 |   for (const auto & [name, descr] : [01;31m[Kjoint_command_interfaces_[m[K)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:174:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_command[m[K’ was not declared in this scope
+  174 |        << "\t" << [01;31m[Kget_command[m[K(name) << " for joint '" << name << "'";
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:176:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+  176 |   RCLCPP_INFO_THROTTLE([01;31m[Kget_logger[m[K(), *get_clock(), 500, "%s", ss.str().c_str());
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:176:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:176:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:176:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:176:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_clock[m[K’ was not declared in this scope
+  176 |   RCLCPP_INFO_THROTTLE(get_logger(), *[01;31m[Kget_clock[m[K(), 500, "%s", ss.str().c_str());
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In lambda function:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:176:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  176 |   [01;31m[KRCLCPP_INFO_THROTTLE[m[K(get_logger(), *get_clock(), 500, "%s", ss.str().c_str());
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:184[m[K:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:187:29:[m[K [01;31m[Kerror: [m[K‘[01m[KDornaPositionControl[m[K’ in namespace ‘[01m[Kdorna_hardware_interface[m[K’ does not name a type
+  187 |   dorna_hardware_interface::[01;31m[KDornaPositionControl[m[K, hardware_interface::SystemInterface)
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [47], const char [36])[m[K’
+  186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+  241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      | [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sang/ros2_ws/src/dorna_robot/hardware/dorna_hardware_interface.cpp:186:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  186 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dorna_hardware_interface.dir/build.make:76: CMakeFiles/dorna_hardware_interface.dir/hardware/dorna_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dorna_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

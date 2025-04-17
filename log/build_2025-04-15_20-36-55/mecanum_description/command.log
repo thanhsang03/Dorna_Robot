@@ -1,0 +1,2 @@
+Invoking command in '/home/sang/ros2_ws/build/mecanum_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/mecanum_description -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/mecanum_description
+Invoked command in '/home/sang/ros2_ws/build/mecanum_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/mecanum_description -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/mecanum_description

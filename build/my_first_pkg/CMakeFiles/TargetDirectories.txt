@@ -1,0 +1,10 @@
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/uninstall.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/my_first_pkg_uninstall.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/my_node.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/test.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/edit_cache.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/rebuild_cache.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/list_install_components.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/install.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/install/local.dir
+/home/sang/ros2_ws/build/my_first_pkg/CMakeFiles/install/strip.dir

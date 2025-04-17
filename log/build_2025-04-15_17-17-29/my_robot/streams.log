@@ -1,0 +1,35 @@
+[0.084s] Invoking command in '/home/sang/ros2_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/my_robot -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/my_robot
+[0.835s] -- The C compiler identification is GNU 13.3.0
+[1.523s] -- The CXX compiler identification is GNU 13.3.0
+[1.673s] -- Detecting C compiler ABI info
+[2.503s] -- Detecting C compiler ABI info - done
+[2.553s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.559s] -- Detecting C compile features
+[2.560s] -- Detecting C compile features - done
+[2.625s] -- Detecting CXX compiler ABI info
+[3.459s] -- Detecting CXX compiler ABI info - done
+[3.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.460s] -- Detecting CXX compile features
+[3.460s] -- Detecting CXX compile features - done
+[3.552s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.900s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.551s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.125s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[7.126s]   By not providing "Findgazebo_ros.cmake" in CMAKE_MODULE_PATH this project
+[7.129s]   has asked CMake to find a package configuration file provided by
+[7.130s]   "gazebo_ros", but CMake did not find one.
+[7.131s] 
+[7.133s]   Could not find a package configuration file provided by "gazebo_ros" with
+[7.134s]   any of the following names:
+[7.135s] 
+[7.136s]     gazebo_rosConfig.cmake
+[7.136s]     gazebo_ros-config.cmake
+[7.136s] 
+[7.137s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[7.137s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[7.142s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[7.143s]   been installed.
+[7.146s] 
+[7.146s] [0m
+[7.147s] -- Configuring incomplete, errors occurred!
+[7.182s] Invoked command in '/home/sang/ros2_ws/build/my_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/my_robot -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/my_robot

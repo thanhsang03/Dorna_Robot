@@ -1,0 +1,40 @@
+[0.063s] Invoking command in '/home/sang/ros2_ws/build/mecanum_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/mecanum_description -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/mecanum_description
+[0.148s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.150s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.150s]   CMake.
+[0.150s] 
+[0.150s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.153s]   CMake that the project does not need compatibility with older versions.
+[0.153s] 
+[0.153s] [0m
+[0.552s] -- The C compiler identification is GNU 13.3.0
+[0.872s] -- The CXX compiler identification is GNU 13.3.0
+[0.971s] -- Detecting C compiler ABI info
+[1.476s] -- Detecting C compiler ABI info - done
+[1.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.516s] -- Detecting C compile features
+[1.522s] -- Detecting C compile features - done
+[1.604s] -- Detecting CXX compiler ABI info
+[2.259s] -- Detecting CXX compiler ABI info - done
+[2.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.309s] -- Detecting CXX compile features
+[2.313s] -- Detecting CXX compile features - done
+[2.477s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.480s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.484s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.486s]   CMake did not find one.
+[2.486s] 
+[2.487s]   Could not find a package configuration file provided by "catkin" with any
+[2.487s]   of the following names:
+[2.487s] 
+[2.491s]     catkinConfig.cmake
+[2.492s]     catkin-config.cmake
+[2.492s] 
+[2.493s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.498s] -- Configuring incomplete, errors occurred!
+[2.498s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.499s]   provides a separate development package or SDK, be sure it has been
+[2.499s]   installed.
+[2.499s] 
+[2.500s] [0m
+[2.512s] Invoked command in '/home/sang/ros2_ws/build/mecanum_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/mecanum_description -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/mecanum_description

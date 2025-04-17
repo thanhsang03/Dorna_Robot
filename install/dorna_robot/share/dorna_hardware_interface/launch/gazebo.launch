@@ -1,0 +1,34 @@
+
+<launch>
+    <include
+    file="$(find gazebo_ros)/launch/empty_world.launch" >
+    <arg name="paused" value="true"/>
+    <arg name="world_name" value="$(find dorna_robot)/worlds/dorna_robot.world"/>
+  </include>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find dorna_robot)/config/config.yaml" command="load" ns="/test"/>
+
+  <!-- Load the URDF into the ROS Parameter Server -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find dorna_robot)/urdf/dorna_robot.urdf'" />
+
+  <node
+  name="spawn_robot"
+  pkg="gazebo_ros"
+  type="spawn_model"
+  respawn="false"
+  args="-file $(find dorna_robot)/urdf/dorna_robot.urdf -urdf -model dorna_robot -z 0.0"
+  output="screen" />
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/test/dorna_robot" args="joint0_position_controller joint1_position_controller 
+    joint2_position_controller joint_ee_position_controller joint_state_controller"/>
+
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+    <remap from="/joint_states" to="/dorna_robot/joint_states" />
+  </node>
+
+</launch>

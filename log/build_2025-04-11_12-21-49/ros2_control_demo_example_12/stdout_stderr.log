@@ -1,0 +1,87 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros2_control_cmake: 0.1.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (8.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/sang/ros2_ws/build/ros2_control_demo_example_12
+[ 16%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_12.dir/hardware/rrbot.cpp.o[0m
+[ 33%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/sang/ros2_ws/build/ros2_control_demo_example_12/include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp /home/sang/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller_parameters.yaml `[0m
+[ 50%] [34m[1mCreating deprecated header file /home/sang/ros2_ws/build/ros2_control_demo_example_12/include/passthrough_controller_parameters.hpp[0m
+[ 50%] Built target passthrough_controller_parameters
+[ 66%] [32mBuilding CXX object CMakeFiles/passthrough_controller.dir/controllers/src/passthrough_controller.cpp.o[0m
+[01m[K/home/sang/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type passthrough_controller::PassthroughController::[01;32m[Kupdate_and_write_commands[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/sang/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller.cpp:139:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  139 |       [01;35m[Kcommand_interfaces_[i].set_value(reference_interfaces_[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+                 from [01m[K/home/sang/ros2_ws/src/ros2_control_demos/example_12/controllers/include/passthrough_controller/passthrough_controller.hpp:24[m[K,
+                 from [01m[K/home/sang/ros2_ws/src/ros2_control_demos/example_12/controllers/src/passthrough_controller.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[ 83%] [32m[1mLinking CXX shared library libros2_control_demo_example_12.so[0m
+[ 83%] Built target ros2_control_demo_example_12
+[100%] [32m[1mLinking CXX shared library libpassthrough_controller.so[0m
+[100%] Built target passthrough_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12//ros2_control_demo_example_12.xml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/include/ros2_control_demo_example_12/passthrough_controller_parameters.hpp
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12//passthrough_controller.xml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/include/ros2_control_demo_example_12/ros2_control_demo_example_12/rrbot.hpp
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/launch/view_robot.launch.py
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/ros2_control/rrbot.ros2_control.xacro
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/urdf/rrbot.urdf.xacro
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/launch/launch_chained_controllers.launch.py
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/launch/rrbot.launch.py
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/config/rrbot_chained_controllers.yaml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/include/passthrough_controller/passthrough_controller/passthrough_controller.hpp
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/library_path.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/library_path.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_12
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_12
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/ament_prefix_path.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/path.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/environment/path.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.bash
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.zsh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/local_setup.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/package.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/packages/ros2_control_demo_example_12
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_12
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_12
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ros2_control_demo_example_12Config.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/ros2_control_demo_example_12Config-version.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/package.xml
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_12/lib/libros2_control_demo_example_12.so
+-- Set non-toolchain portion of runtime path of "/home/sang/ros2_ws/install/ros2_control_demo_example_12/lib/libros2_control_demo_example_12.so" to ""
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_12/lib/libpassthrough_controller.so
+-- Set non-toolchain portion of runtime path of "/home/sang/ros2_ws/install/ros2_control_demo_example_12/lib/libpassthrough_controller.so" to ""
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_passthrough_controllerExport.cmake
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_passthrough_controllerExport-noconfig.cmake
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_ros2_control_demo_example_12Export.cmake
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_12/share/ros2_control_demo_example_12/cmake/export_ros2_control_demo_example_12Export-noconfig.cmake

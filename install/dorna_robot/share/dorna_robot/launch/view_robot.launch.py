@@ -1,0 +1,1 @@
+/home/sang/ros2_ws/src/dorna_robot/description/launch/view_robot.launch.py

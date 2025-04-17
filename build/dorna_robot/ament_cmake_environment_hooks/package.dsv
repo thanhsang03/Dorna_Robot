@@ -1,0 +1,4 @@
+source;share/dorna_robot/local_setup.bash
+source;share/dorna_robot/local_setup.dsv
+source;share/dorna_robot/local_setup.sh
+source;share/dorna_robot/local_setup.zsh

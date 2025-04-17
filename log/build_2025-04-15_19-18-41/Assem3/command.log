@@ -1,0 +1,2 @@
+Invoking command in '/home/sang/ros2_ws/build/Assem3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/Assem3 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/Assem3
+Invoked command in '/home/sang/ros2_ws/build/Assem3' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sang/ros2_ws/src/Assem3 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sang/ros2_ws/install/Assem3

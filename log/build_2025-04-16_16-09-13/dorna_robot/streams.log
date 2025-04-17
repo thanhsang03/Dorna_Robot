@@ -1,0 +1,52 @@
+[0.046s] Invoking command in '/home/sang/ros2_ws/build/dorna_robot': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/dorna_robot -- -j2 -l2
+[0.617s] [ 50%] [32mBuilding CXX object CMakeFiles/dorna_hardware_interface.dir/hardware/dorna_hardware_interface.cpp.o[0m
+[12.908s] [100%] [32m[1mLinking CXX shared library libdorna_hardware_interface.so[0m
+[13.765s] [100%] Built target dorna_hardware_interface
+[13.811s] Invoked command in '/home/sang/ros2_ws/build/dorna_robot' returned '0': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sang/ros2_ws/build/dorna_robot -- -j2 -l2
+[13.818s] Invoking command in '/home/sang/ros2_ws/build/dorna_robot': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/dorna_robot
+[13.850s] -- Install configuration: ""
+[13.853s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/dorna_ros2_control_hwI_plugin.xml
+[13.855s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI
+[13.855s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI/ros2_control_hwI
+[13.856s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI/ros2_control_hwI/dorna_hardware_interface.hpp
+[13.857s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch
+[13.858s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/view_robot.launch.py
+[13.859s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/ros2_control
+[13.859s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/ros2_control/dorna.ros2_control.xacro
+[13.862s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf
+[13.863s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf/dorna.urdf.xacro
+[13.864s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf/dorna_macro.xacro
+[13.865s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf/dorna.materials.xacro
+[13.867s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/gazebo
+[13.868s] -- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch
+[13.870s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/main.launch
+[13.871s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/control.launch
+[13.872s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/display.launch
+[13.874s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/gazebo.launch
+[13.875s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/config
+[13.877s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/config/controllers.yaml
+[13.878s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/lib/libdorna_hardware_interface.so
+[13.884s] -- Set non-toolchain portion of runtime path of "/home/sang/ros2_ws/install/dorna_robot/lib/libdorna_hardware_interface.so" to ""
+[13.884s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.sh
+[13.886s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.dsv
+[13.888s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/package_run_dependencies/dorna_robot
+[13.890s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/parent_prefix_path/dorna_robot
+[13.891s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.sh
+[13.892s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.dsv
+[13.894s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.sh
+[13.895s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.dsv
+[13.895s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.bash
+[13.897s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.sh
+[13.900s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.zsh
+[13.900s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.dsv
+[13.906s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.dsv
+[13.906s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/packages/dorna_robot
+[13.907s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/dorna_hardware_interface__pluginlib__plugin/dorna_robot
+[13.913s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport.cmake
+[13.913s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport-noconfig.cmake
+[13.915s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_targets-extras.cmake
+[13.916s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.917s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig.cmake
+[13.919s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig-version.cmake
+[13.920s] -- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.xml
+[13.926s] Invoked command in '/home/sang/ros2_ws/build/dorna_robot' returned '0': AMENT_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sang/ros2_ws/install/ros2_control_demo_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sang/ros2_ws/build/dorna_robot

@@ -1,0 +1,48 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dorna_hardware_interface.dir/hardware/dorna_hardware_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdorna_hardware_interface.so[0m
+[100%] Built target dorna_hardware_interface
+-- Install configuration: ""
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/dorna_ros2_control_hwI_plugin.xml
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI/ros2_control_hwI
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/include/ros2_control_hwI/ros2_control_hwI/dorna_hardware_interface.hpp
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/view_robot.launch.py
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/ros2_control
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/ros2_control/dorna.ros2_control.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf/dorna.urdf.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf/dorna_macro.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/urdf/dorna.materials.xacro
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/gazebo
+-- Up-to-date: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/main.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/control.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/display.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/launch/gazebo.launch
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/config
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_hardware_interface/config/controllers.yaml
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/lib/libdorna_hardware_interface.so
+-- Set non-toolchain portion of runtime path of "/home/sang/ros2_ws/install/dorna_robot/lib/libdorna_hardware_interface.so" to ""
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.sh
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/library_path.dsv
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/package_run_dependencies/dorna_robot
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/parent_prefix_path/dorna_robot
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.sh
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.sh
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/environment/path.dsv
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.bash
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.sh
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.zsh
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/local_setup.dsv
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.dsv
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/packages/dorna_robot
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/ament_index/resource_index/dorna_hardware_interface__pluginlib__plugin/dorna_robot
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport.cmake
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/export_dorna_hardware_interfaceExport-noconfig.cmake
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig.cmake
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/cmake/dorna_robotConfig-version.cmake
+-- Installing: /home/sang/ros2_ws/install/dorna_robot/share/dorna_robot/package.xml

@@ -1,0 +1,66 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros2_control_cmake: 0.1.1 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (10.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/sang/ros2_ws/build/ros2_control_demo_example_1
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_1.dir/hardware/rrbot.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libros2_control_demo_example_1.so[0m
+[100%] Built target ros2_control_demo_example_1
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1//ros2_control_demo_example_1.xml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/include/ros2_control_demo_example_1/ros2_control_demo_example_1/rrbot.hpp
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/view_robot.launch.py
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/ros2_control/rrbot.ros2_control.xacro
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/urdf/rrbot.urdf.xacro
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/rrbot.launch.py
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_forward_position_controller.launch.py
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/launch/test_joint_trajectory_controller.launch.py
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_controllers.yaml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_forward_position_publisher.yaml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_joint_trajectory_publisher.yaml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/config/rrbot_jtc.yaml
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/library_path.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_1
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_1
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/environment/path.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.bash
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.sh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.zsh
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/local_setup.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/packages/ros2_control_demo_example_1
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_1
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/ros2_control_demo_example_1Config-version.cmake
+-- Symlinking: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.xml
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so
+-- Set non-toolchain portion of runtime path of "/home/sang/ros2_ws/install/ros2_control_demo_example_1/lib/libros2_control_demo_example_1.so" to ""
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export.cmake
+-- Installing: /home/sang/ros2_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/cmake/export_ros2_control_demo_example_1Export-noconfig.cmake

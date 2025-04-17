@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="dorna_robot">
+  <xacro:include filename="dorna.materials.xacro"/>
+  <xacro:include filename="dorna_macro.xacro"/>
+
+  <link name="world"/>
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <xacro:dorna_link
+    link_name="base_link"
+    mesh="base_link.STL"
+    mass="0.562578452789594"
+    com="-0.0356468903487913 0.000194114075948437 0.0462597123642676"
+    ixx="0.000612087024197645"
+    ixy="-2.15422443825563E-09"
+    ixz="-2.80796634269442E-09"
+    iyy="0.00148744913782719"
+    iyz="3.85368920075522E-09"
+    izz="0.0020682538612511"
+    color="${default_color}"/>
+
+  <xacro:dorna_link
+    link_name="link1"
+    mesh="link1.STL"
+    mass="0.541236413982034"
+    com="-0.0165439022620893 0.0020955089053665 -0.0701432486123115"
+    ixx="0.000417409099122659"
+    ixy="4.63632228690841E-09"
+    ixz="-0.000273958679538294"
+    iyy="0.00139953983311562"
+    iyz="3.48042730188277E-08"
+    izz="0.00127023166144812"
+    color="${default_color}"/>
+
+  <xacro:dorna_link
+    link_name="link2"
+    mesh="link2.STL"
+    mass="0.284645387419861"
+    com="0.0483254754830819 -2.36661321803E-05 -3.86929810966552E-06"
+    ixx="8.59897745726711E-05"
+    ixy="-1.34409586412092E-08"
+    ixz="5.81844953031956E-09"
+    iyy="0.000811705674382664"
+    iyz="1.51505045678467E-07"
+    izz="0.000842026158867508"
+    color="${default_color}"/>
+
+  <xacro:dorna_link
+    link_name="link3"
+    mesh="link3.STL"
+    mass="0.284645387419861"
+    com="0.0483254754830819 0 0"
+    ixx="8.59897745726711E-05"
+    ixy="0"
+    ixz="0"
+    iyy="0.000811705674382664"
+    iyz="0"
+    izz="0.000842026158867508"
+    color="${default_color}"/>
+
+  <xacro:dorna_link
+    link_name="link4"
+    mesh="link4.STL"
+    mass="0.0597637624144615"
+    com="0.00804927356489171 0.000115387546507195 -0.00267105243470789"
+    ixx="1.35874315258176E-05"
+    ixy="-9.23407430900677E-08"
+    ixz="-1.85365870283447E-06"
+    iyy="2.1803247673357E-05"
+    iyz="-2.20400475500688E-08"
+    izz="2.15923640744348E-05"
+    color="${default_color}"/>
+
+  <xacro:dorna_joint
+    joint_name="joint1"
+    type="revolute"
+    parent="base_link"
+    child="link1"
+    origin_xyz="0 0 0.20738"
+    origin_rpy="0 0 0"
+    axis="0 0 1"
+    limit_lower="-3.14"
+    limit_upper="3.14"
+    limit_effort="10"
+    limit_velocity="100"/>
+
+  <xacro:dorna_joint
+    joint_name="joint2"
+    type="revolute"
+    parent="link1"
+    child="link2"
+    origin_xyz="0.115450407515662 0 0"
+    origin_rpy="1.57079632679489 0 0"
+    axis="0 0 1"
+    limit_lower="-3.14"
+    limit_upper="3.14"
+    limit_effort="10"
+    limit_velocity="100"/>
+
+  <xacro:dorna_joint
+    joint_name="joint3"
+    type="revolute"
+    parent="link2"
+    child="link3"
+    origin_xyz="0.176600000000001 0 0"
+    origin_rpy="0 0 -0.00954071071682499"
+    axis="0 0 1"
+    limit_lower="-3.14"
+    limit_upper="3.14"
+    limit_effort="10"
+    limit_velocity="100"/>
+
+  <xacro:dorna_joint
+    joint_name="joint4"
+    type="revolute"
+    parent="link3"
+    child="link4"
+    origin_xyz="0.176591962539253 0.00168486395148443 0"
+    origin_rpy="0 0 0.00954071071682499"
+    axis="0 0 1"
+    limit_lower="-3.14"
+    limit_upper="3.14"
+    limit_effort="10"
+    limit_velocity="100"/>
+</robot>
